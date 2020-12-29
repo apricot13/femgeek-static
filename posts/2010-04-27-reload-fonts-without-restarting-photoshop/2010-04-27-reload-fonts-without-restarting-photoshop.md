@@ -16,3 +16,4 @@ When your working on a design and you want to try out a particular font the last
 I always start a new text layer – otherwise your current paragraph/character settings are lost. (press T and click anywhere on the document) then go to Window > Character
 
 Click the little icon with the three lines and the down arrow in the top right hand corner of the Character Pallet, then select Reset Character and all your new fonts will be added to the list!
+ 
