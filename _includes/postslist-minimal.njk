@@ -1,0 +1,24 @@
+{# style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}" #}
+
+<ol reversed class="postlist-minimal">
+{% for post in postslist | reverse %}
+  <li class="postlist-minimal-item{% if post.url == url %} postlist-minimal-item--active{% endif %}">
+    <time class="postlist-minimal-item__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | archiveDate }}</time> <a href="{{ post.url | url }}" class="postlist-minimal-item__link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+
+    {%- if post.data.tags -%}
+    <div class="postlist-minimal-item__tags">
+    {% for tag in post.data.tags %}
+      {%- if collections.tagList.indexOf(tag) != -1 -%}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+    </div>
+    {%- endif -%}
+
+
+
+  </li>
+{% endfor %}
+</ol>
+

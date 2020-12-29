@@ -1,0 +1,38 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+
+<h2 class="single-post__title">{{ title }}</h2>
+
+{%- if tags -%}
+<div class="single-post__tags">
+{% for tag in tags %}
+  {%- if collections.tagList.indexOf(tag) != -1 -%}
+    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+    <a href="{{ tagUrl | url }}" class="post-tag-alt">{{ tag }}</a>
+  {%- endif -%}
+{% endfor %}
+</div>
+{%- endif -%}
+
+
+<time class="single-post__date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+
+{{ content | safe }}
+
+
+<ul class="prev-next-post">
+    {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+  {%- if previousPost %}
+    <li>Previous:<br /> <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>
+  {% endif %}
+
+
+  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+  {%- if nextPost %}
+    <li>Next:<br /> <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>
+  {% endif %}
+  
+
+</ul>

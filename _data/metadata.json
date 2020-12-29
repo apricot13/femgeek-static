@@ -1,0 +1,20 @@
+{
+  "title": "femgeek",
+  "url": "https://femgeek.co.uk/",
+  "description": "00100101 oooh shiney. A blog about my hobbies and interests",
+  "feed": {
+    "subtitle": "A blog about my hobbies and interests",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://example.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Han",
+    "email": "hnah1313@gmail.com",
+    "url": "https://femgeek.co.uk/about/"
+  }
+}
