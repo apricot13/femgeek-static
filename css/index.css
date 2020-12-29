@@ -3,6 +3,7 @@
   --font-color: #2B2B2B;
   --link-color: #cf3709;
   --link-color-alt: #691c04;
+  --light-grey: #f3f2f2;
   --grey: #BCBCBC;
   --black: #2B2B2B;
   --white: #fff;
@@ -482,6 +483,19 @@ main {
 }
 
 
+main p img {
+  margin: 0 auto;
+  display: block;
+  padding: 80px 0;
+  max-width: 800px;
+}
+
+
+main blockquote {
+  background-color: var(--light-grey);
+  padding: 10px 25px;
+}
+
 /* post list */
 
 .postslist {
@@ -541,7 +555,7 @@ main {
 
 .post__link {
   text-decoration: none;
-  color: var(--black);
+  /* color: var(--black); */
 }
 
 .post__description {
