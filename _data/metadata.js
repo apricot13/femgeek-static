@@ -26,6 +26,8 @@ module.exports = {
   ENV: process.env.ELEVENTY_ENV,
   title: "femgeek",
   url: "http://localhost:8080/",
+
+  github: "https://github.com/apricot13/femgeek-static",
   description: "00100101 oooh shiney. A blog about my hobbies and interests",
   feed: {
     subtitle: "A blog about my hobbies and interests",

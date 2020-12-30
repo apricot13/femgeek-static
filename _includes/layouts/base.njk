@@ -52,7 +52,7 @@
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
-      <p>Layout by <a href="http://www.apricot13.org">apricot13</a> (aka me) built with <a href="https://www.11ty.dev/" rel="nofollow">11ty</a>. <a href="https://github.com/apricot13/femgeek-static" rel="nofollow">View the code</a>. <a href="#top">Back to top</a>  </p> 
+      <p>Layout by <a href="http://www.apricot13.org">apricot13</a> (aka me) built with <a href="https://www.11ty.dev/" rel="nofollow">11ty</a>. <a href="{{metadata.github}}" rel="nofollow">View the code</a>. <a href="#top">Back to top</a> <a href="{{metadata.github}}/blob/master/{{ page.inputPath }}">Suggest fixes to this page</a>  </p> 
     </footer>
 
     <!-- Current page: {{ page.url | url }} -->
