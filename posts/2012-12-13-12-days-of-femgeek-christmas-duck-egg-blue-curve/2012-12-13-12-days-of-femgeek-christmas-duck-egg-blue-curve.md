@@ -8,7 +8,7 @@ tags:
   - downloads 
   - freebies 
   - photoshop
-layout: layouts/post.njk
+layout: post
 ---
 
  

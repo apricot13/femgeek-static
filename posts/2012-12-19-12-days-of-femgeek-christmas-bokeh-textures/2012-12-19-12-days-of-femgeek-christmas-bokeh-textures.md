@@ -6,7 +6,7 @@ tags:
   - 12 days of femgeek christmas 
   - freebies 
   - textures
-layout: layouts/post.njk
+layout: post
 ---
 
 ![12 Days of Femgeek Christmas](12daysofchristmas-20201229104924176.jpg)

@@ -1,18 +1,26 @@
 ---
-layout: layouts/home.njk
+layout: twoCol
 eleventyNavigation:
   key: Home
   order: 1
 ---
 
-{% set maxPosts = collections.posts.length | min(3) %}
+{# {% set maxPosts = collections.posts.length | min(3) %} #}
 {# <h2>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h2> #}
 
+
+
+
+{# {% set postslist = collections.published | head(-5) %}
+{% set postslistCounter = collections.published | length %}
+{% include "postslist.njk" %} #}
+
 {% set postslist = collections.posts | head(-5) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
+{% set postslistCounter = collections.posts | length %} 
+{% include "postslist.njk" %} 
 
-
+   
 <br />
-<br />
+<br /> 
 <p class="text-center" ><a href="{{ '/posts/' | url }}">View all posts</a></p>
+  

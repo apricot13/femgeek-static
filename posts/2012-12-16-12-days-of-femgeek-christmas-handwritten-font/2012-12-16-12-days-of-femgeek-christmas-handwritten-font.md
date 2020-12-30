@@ -6,7 +6,7 @@ tags:
   - 12 days of femgeek christmas 
   - fonts 
   - freebies
-layout: layouts/post.njk
+layout: post
 ---
 
  

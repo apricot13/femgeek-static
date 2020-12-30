@@ -5,7 +5,7 @@ date: 2010-04-27
 tags:
   - photoshop
   - tips
-layout: layouts/post.njk
+layout: post
 ---
 This is one of the most invaluable things I’ve learnt about photoshop!
 

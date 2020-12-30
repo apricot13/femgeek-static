@@ -2,10 +2,9 @@
 title: How to show posts on the homepage of eleventy-base-blog
 description:  Switching to eleventy for my blogging but needing images on the homepage
 date: 2021-01-30
-draft: true
 tags:
   - eleventy
-layout: layouts/post.njk
+layout: post
 ---
  
 I've just finished switching over my wordpress blog to a static site. Theres a few reasons I've done this but thats for another day!

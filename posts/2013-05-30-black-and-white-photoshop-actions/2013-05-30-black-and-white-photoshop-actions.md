@@ -6,7 +6,7 @@ tags:
   - freebies 
   - photoshop 
   - photoshop actions
-layout: layouts/post.njk
+layout: post
 ---
  
  

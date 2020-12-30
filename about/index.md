@@ -1,7 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: twoCol
 title: About
-templateClass: tmpl-post
 eleventyNavigation:
   key: About
   order: 2

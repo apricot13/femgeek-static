@@ -14,6 +14,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+  eleventyConfig.addLayoutAlias("twoCol", "layouts/two-col.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("EEE dd LLL yyyy");
@@ -41,14 +42,17 @@ module.exports = function(eleventyConfig) {
     return Math.min.apply(null, numbers);
   });
 
-  // const now = new Date();
 
-  // const livePosts = p => p.date <= now;
+  // support drafts and scheduled posts https://remysharp.com/2019/06/26/scheduled-and-draft-11ty-posts use IFTTT for cron
+  const now = new Date();
 
-  // eleventyConfig.addCollection('posts', collection => {
-  //   return collection.getFilteredByGlob('./src/posts/*.md')
-  //     .filter(livePosts).reverse();
-  // });
+  const livePosts = p => p.date <= now && !p.data.draft;
+  
+
+  eleventyConfig.addCollection('published', collection => {
+    return collection.getFilteredByGlob('./posts/*.md')
+      .filter(livePosts).reverse();  
+  });
 
 
 
@@ -59,6 +63,8 @@ module.exports = function(eleventyConfig) {
         let tags = item.data.tags;
 
         tags = tags.filter(function(item) {
+
+
           switch(item) {
             // this list should match the `filter` list in tags.njk
             case "all":
@@ -67,7 +73,6 @@ module.exports = function(eleventyConfig) {
             case "posts":
               return false;
           }
-
           return true;
         });
 

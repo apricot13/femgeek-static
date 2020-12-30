@@ -8,7 +8,7 @@ tags:
   - lightroom 
   - lightroom presets 
   - preset
-layout: layouts/post.njk
+layout: post
 ---
 
 ![12 Days of Femgeek Christmas](12daysofchristmas.jpg)

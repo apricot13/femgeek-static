@@ -6,7 +6,7 @@ tags:
   - photoshop
   - 12 days of femgeek christmas 
   - tutorial
-layout: layouts/post.njk
+layout: post
 ---
 
  

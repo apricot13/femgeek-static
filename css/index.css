@@ -676,19 +676,25 @@ main ul li, main ol li {
   list-style: none;
   font-size: .8rem;
   padding: 60px 0 40px 0;
-  clear: both;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 15px;
+  /* clear: both; */
 }
 
-.prev-next-post:after {
+/* .prev-next-post:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 .prev-next-post li {
-  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-image: none;
+  /* display: block;
   float: left;
-  width: 50%;
+  width: 50%; */
 }
 
 

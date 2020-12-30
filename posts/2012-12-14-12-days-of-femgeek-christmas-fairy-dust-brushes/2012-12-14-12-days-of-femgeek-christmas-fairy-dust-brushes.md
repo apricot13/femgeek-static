@@ -8,7 +8,7 @@ tags:
   - freebies 
   - photoshop 
   - photoshop brushes
-layout: layouts/post.njk
+layout: post
 ---
 
 ![12 Days of Femgeek Christmas](12daysofchristmas-20201229112622862.jpg)

@@ -4,7 +4,7 @@ description: How to make skittles vodka
 date: 2010-04-27
 tags:
   - diy
-layout: layouts/post.njk
+layout: post
 ---
 
 Its my friends birthday on Saturday night so I decided to make my own ‘cocktail’. Which is essentially skittles in a bottle of vodka!
