@@ -1,6 +1,7 @@
 [build]
   publish = "_site"
-  command = "DEBUG=* eleventy"
+  command = "npm run build"
+  functions = "functions/"
 
 
 [[redirects]]

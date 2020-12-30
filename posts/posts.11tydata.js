@@ -1,5 +1,13 @@
 module.exports = {
   tags: ["posts"],
+  eleventyComputed: {
+    comments: "sup"
+  }
+
+}
+
+
+
 //   eleventyComputed: {
 //     permalink: data => {
 //         if (process.env.ELEVENTY_ENV !== "production")
@@ -7,9 +15,6 @@ module.exports = {
 //         else return data.draft ? false : data.permalink;
 //     }
 // }
-}
-
-
 
 // eleventyExcludeFromCollections: data => {
 //     console.log(process.env.ELEVENTY_ENV)
