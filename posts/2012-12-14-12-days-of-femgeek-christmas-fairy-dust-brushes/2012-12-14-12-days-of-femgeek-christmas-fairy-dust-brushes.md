@@ -4,9 +4,7 @@ description: Some fairy dust brushes to add some sparkle to your christmas.
 date: 2012-12-14
 tags:
   - 12 days of femgeek christmas 
-  - brushes 
   - freebies 
-  - photoshop 
   - photoshop brushes
 layout: post
 ---

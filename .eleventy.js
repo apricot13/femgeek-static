@@ -1,10 +1,17 @@
 const { DateTime } = require("luxon");
 const fs = require("fs");
+const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+
+const manifestPath = path.resolve(__dirname, "_site", "assets", "manifest.json");
+const manifest = JSON.parse(
+  fs.readFileSync(manifestPath, { encoding: "utf8" })
+);
+
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -43,15 +50,21 @@ module.exports = function(eleventyConfig) {
   });
 
 
+    // Adds a universal shortcode to return the URL to a webpack asset. In Nunjack templates:
+  // {% webpackAsset 'main.js' %} or {% webpackAsset 'main.css' %}
+  eleventyConfig.addShortcode("webpackAsset", function(name) {
+    if (!manifest[name]) {
+      throw new Error(`The asset ${name} does not exist in ${manifestPath}`);
+    }
+    return manifest[name];
+  });
+
+
   // support drafts and scheduled posts https://remysharp.com/2019/06/26/scheduled-and-draft-11ty-posts use IFTTT for cron
   const now = new Date();
 
   const livePosts = p => p.date <= now && !p.data.draft;
 
-  eleventyConfig.addCollection('testing', collection => {
-    return collection.getFilteredByGlob('./testing/*.md')
-      .filter(livePosts).reverse();  
-  });
 
 
   eleventyConfig.addCollection('posts', collection => {
@@ -69,7 +82,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();
-    collection.getAll().forEach(function(item) {
+    collection.getAll().filter(livePosts).forEach(function(item) {
       if( "tags" in item.data ) {
         let tags = item.data.tags;
 

@@ -1,0 +1,20 @@
+  
+  /* single post page */
+  
+  .single-post__title {
+    text-align: center;
+  }
+  
+  .single-post__tags {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .7rem;
+  }
+  
+  
+  .single-post__date {
+    text-align: center;
+    font-size: .7rem;
+    display: block;
+    padding: 50px 0 20px 0;
+  }

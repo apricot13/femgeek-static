@@ -4,8 +4,7 @@ description: Today we’re going to learn how to make some digital bunting.
 date: 2012-12-15
 tags:
   - 12 days of femgeek christmas 
-  - tutorial
-  - photoshop
+  - photoshop tutorial
 layout: post
 ---
 

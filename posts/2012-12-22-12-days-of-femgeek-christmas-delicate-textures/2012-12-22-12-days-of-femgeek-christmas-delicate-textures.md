@@ -5,11 +5,10 @@ date: 2012-12-22
 tags:
   - 12 days of femgeek christmas 
   - freebies 
-  - photography 
-  - textures
+  - photo editing resources 
 layout: post
 ---
-
+ 
 ![12 Days of Femgeek Christmas](12daysofchristmas-20201229113413354.jpg)
 
 Day 10 of the 12 days of Femgeek Christmas!

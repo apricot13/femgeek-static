@@ -1,0 +1,16 @@
+/* purgecss start ignore */
+/* @import "tailwindcss/base";
+@import "tailwindcss/components"; */
+/* purgecss end ignore */
+
+@import "./normalize.css";
+
+@import "./01-settings.css";
+@import "./02-tools.css";
+@import "./03-generic.css";
+@import "./04-elements.css";
+@import "./05-objects.css";
+@import "./06-components.css";
+@import "./07-trumps.css";
+ 
+/* @import "tailwindcss/utilities"; */

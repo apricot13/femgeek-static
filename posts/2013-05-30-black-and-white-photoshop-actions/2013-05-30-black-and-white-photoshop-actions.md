@@ -4,12 +4,11 @@ description:  Two black and white actions for your photos. One gives a high cont
 date: 2013-05-30
 tags:
   - freebies 
-  - photoshop 
   - photoshop actions
 layout: post
 ---
  
- 
+
 ![Femgeek B&W Photoshop Actions](8891305535_e1d65868f2_o.jpg)
 
  

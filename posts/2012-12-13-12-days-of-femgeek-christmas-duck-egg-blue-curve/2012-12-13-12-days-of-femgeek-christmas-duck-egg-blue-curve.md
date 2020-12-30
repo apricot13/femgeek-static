@@ -4,10 +4,8 @@ description: A free photoshop curve that gives your images a duck egg blue hue. 
 date: 2012-12-13
 tags:
   - 12 days of femgeek christmas 
-  - curves 
-  - downloads 
+  - photoshop curves 
   - freebies 
-  - photoshop
 layout: post
 ---
 

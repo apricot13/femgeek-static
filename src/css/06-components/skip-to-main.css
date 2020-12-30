@@ -1,0 +1,21 @@
+.skip-to-main {
+    clip: rect(0 0 0 0);  clip-path: inset(50%);  height: 1px;  overflow: hidden;  position: absolute;  white-space: nowrap;  width: 1px;
+  }
+  
+  .skip-to-main:focus {
+    outline: 3px solid #fd0;
+    outline-offset: 0;
+    background-color: #fd0;
+  
+    position: absolute ;
+    width: 100% ;
+    height: auto ;
+    margin: inherit ;
+    overflow: visible ;
+    clip: auto ;
+    clip-path: none ;
+    white-space: inherit ;
+    text-shadow: none;
+    color: var(--black)
+  }
+  

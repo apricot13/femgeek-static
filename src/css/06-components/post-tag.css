@@ -1,0 +1,27 @@
+  /* post tag */
+  
+  a.post-tag {
+    display: inline-block;
+    text-decoration: none;
+    /* background: var(--light-grey); */
+    color: var(--grey);
+    text-shadow: none;
+    padding: 0 5px;
+    border-radius: 2px;
+    font-size: .7em;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  a.post-tag:hover {
+    color: var(--black);
+  }
+   
+  a.post-tag::after {
+    content: "";
+    border-right: 1px solid var(--grey);
+    padding-left: 10px;
+  }
+  a.post-tag:last-of-type::after {
+    border: 0;
+  }
+  

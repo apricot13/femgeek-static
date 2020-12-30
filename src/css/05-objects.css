@@ -1,0 +1,73 @@
+
+
+  main {
+    overflow: hidden;
+    /* border: 1px solid green; */
+    max-width: 800px;
+    margin: 0px auto;
+    
+    min-height: calc(100vh - 150px); 
+  }
+  @media screen and (min-width: 320px) {
+    main {
+      /* border: 1px solid red; */
+      padding: 0 10px;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    main {
+      /* border: 1px solid blue; */
+      padding: 0 20px;
+      /* float: left; */
+    }
+  }
+  
+  main.tmpl-home {
+    max-width: 1200px;
+  }
+  
+  .home__side {
+    /* float: right; */
+    /* width: 200px; */
+    font-size: .7rem;
+  }
+  
+  
+  @media screen and (min-width: 320px) {
+    .home {
+      /* border: 1px solid red; */
+      display: block;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .home {
+      /* border: 1px solid blue; */
+      display: grid;
+      grid-template-columns: 1fr 250px;
+      column-gap: 100px;
+    }
+  }
+
+  main p img {
+    margin: 0 auto;
+    display: block;
+    padding: 50px 0;
+    max-width: 800px;
+  }
+  
+  
+  main blockquote {
+    background-color: var(--light-grey);
+    padding: 10px 25px;
+  }
+  
+  main ul, main ol {
+    padding: 0;
+    margin: 0 0 10px 25px;
+  }
+  
+  main ul li, main ol li {
+    list-style-image: url(/img/bullet.gif);
+    padding: 0px 5px;
+  }
+  

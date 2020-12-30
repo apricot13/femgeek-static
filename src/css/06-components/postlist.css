@@ -1,0 +1,20 @@
+/* postlist-minimal */
+  
+.postlist-minimal {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: .8rem;
+  }
+  
+  .postlist-minimal-item {
+    display: grid;
+    grid-template-columns: 130px 1fr auto;
+    padding-bottom: 20px;
+  }
+
+  /* .home .postslist {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 15px;
+  } */

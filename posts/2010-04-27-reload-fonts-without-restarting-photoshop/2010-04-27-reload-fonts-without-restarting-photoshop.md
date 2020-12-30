@@ -4,7 +4,6 @@ description: How to reload fonts without restarting photoshop
 date: 2010-04-27
 tags:
   - photoshop
-  - tips
 layout: post
 ---
 This is one of the most invaluable things I’ve learnt about photoshop!

@@ -1,0 +1,12 @@
+@import "./06-components/footer.css";
+@import "./06-components/header.css";
+@import "./06-components/logo.css";
+@import "./06-components/nav.css";
+@import "./06-components/post-tag.css";
+@import "./06-components/post.css";
+@import "./06-components/postlist.css";
+@import "./06-components/prev-next-post.css";
+@import "./06-components/sidebar.css";
+@import "./06-components/single-post.css";
+@import "./06-components/skip-to-main.css";
+@import "./06-components/tags-list.css";

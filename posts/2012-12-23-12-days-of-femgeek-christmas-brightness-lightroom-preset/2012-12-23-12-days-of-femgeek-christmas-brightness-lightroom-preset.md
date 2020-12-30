@@ -5,9 +5,7 @@ date: 2012-12-23
 tags:
   - 12 days of femgeek christmas 
   - freebies 
-  - lightroom 
   - lightroom presets 
-  - presets
 layout: post
 ---
 

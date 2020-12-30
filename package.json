@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "00100101 oooh shiney. A blog about my hobbies and interests",
   "scripts": {
-    "build": "eleventy",
-    "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
-    "start": "eleventy --serve",
-    "debug": "DEBUG=* eleventy"
+    "build": "npm-run-all clean build:assets build:site",
+    "build:assets": "NODE_ENV=production webpack --mode=production",
+    "build:site": "NODE_ENV=production eleventy",
+    "clean": "rm -rf ./_site",
+    "dev": "npm-run-all clean webpack:assets --parallel dev:*",
+    "dev:assets": "NODE_ENV=development webpack --watch",
+    "dev:site": "NODE_ENV=development eleventy --serve",
+    "webpack:assets": "NODE_ENV=development webpack --mode=development"
   },
   "repository": {
     "type": "git",
@@ -27,9 +30,25 @@
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.0.9",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "autoprefixer": "^9.8.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "cssnano": "^4.1.10",
     "dotenv": "^8.2.0",
     "luxon": "^1.21.3",
     "markdown-it": "^8.4.2",
-    "markdown-it-anchor": "^5.2.5"
+    "markdown-it-anchor": "^5.2.5",
+    "mini-css-extract-plugin": "^0.9.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-css-variables": "^0.17.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.4.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-manifest-plugin": "^2.2.0"
   }
 }

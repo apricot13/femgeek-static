@@ -5,7 +5,7 @@ date: 2012-12-19
 tags:
   - 12 days of femgeek christmas 
   - freebies 
-  - textures
+  - photo editing resources
 layout: post
 ---
 

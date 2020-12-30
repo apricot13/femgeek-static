@@ -1,0 +1,25 @@
+
+
+  html, body {
+    background-color: var(--white);
+    font-family: "ABeeZee", sans-serif;
+    color: var(--font-color);
+    line-height: 30px;
+    font-weight: 400;
+  }
+  
+  html {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 22px;
+    }
+  }
+  
+  

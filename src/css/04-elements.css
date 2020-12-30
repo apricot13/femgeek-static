@@ -1,0 +1,25 @@
+
+  /* links */
+  
+  a, a:link {
+    text-shadow: 0 1px 0 var(--white);
+    color: var(--link-color)
+  }
+  
+  a:hover {
+    color: var(--black)
+  }
+  
+  a:visited {
+    /* color: var(--link-color-alt) */
+  }
+  
+  
+  /* typography */
+  
+  h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
+    padding: 0;
+    margin: 10px 0 60px 0;
+  }
+  

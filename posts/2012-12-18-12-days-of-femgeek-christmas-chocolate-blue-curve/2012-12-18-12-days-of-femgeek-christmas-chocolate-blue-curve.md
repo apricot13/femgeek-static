@@ -4,10 +4,8 @@ description: A free photoshop curve that gives your images a chocolatey blue eff
 date: 2012-12-18
 tags:
   - 12 days of femgeek christmas 
-  - curves 
-  - downloads 
+  - photoshop curves 
   - freebies 
-  - photoshop
 layout: post
 ---
 
