@@ -26,8 +26,9 @@ It would be great if you could tweet/facebook/google plus about the 12 days too!
  
 
 ![Femgeek Handwritten Font](8259763112_db50c43eb2_c.jpg)
+
 A handwritten font for you to use. Maybe write your christmas cards in it!
 
 **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
-[![Femgeek Handwritten Font](downloadBtn-20201229111821007.jpg)](http://www.femgeek.co.uk/download/10)
+[![Femgeek Handwritten Font](downloadBtn-20201229111821007.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-16-12-days-of-femgeek-christmas-handwritten-font/FemgeekHandwrittenFont.zip)

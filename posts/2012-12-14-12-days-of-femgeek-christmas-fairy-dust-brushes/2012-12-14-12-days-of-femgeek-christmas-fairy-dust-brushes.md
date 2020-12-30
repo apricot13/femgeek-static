@@ -29,7 +29,7 @@ Some fairy dust brushes to add some sparkle to your christmas.
 
 **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
-[![Femgeek Fairy Dust Brushes](downloadBtn-20201229112622852.jpg)](http://www.femgeek.co.uk/download/11)
+[![Femgeek Fairy Dust Brushes](downloadBtn-20201229112622852.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-14-12-days-of-femgeek-christmas-fairy-dust-brushes/FemgeekFairyDustBrushes.zip)
 
 Don’t know how to install or use this download? Don’t worry, I created a little guide to help you. But if you run into any trouble [tweet](https://www.twitter.com/apricot_13) or [email me](http://www.femgeek.co.uk/contact) and I’ll try to help.
 

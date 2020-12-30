@@ -33,7 +33,7 @@ Included in the zip file are sizes:
 
 **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
-[![Femgeek Christmas Wallpaper - Red Lettering](downloadBtn-20201229110127002.jpg)](https://github.com/apricot13/femgeek-static/blob/master/files/FemgeekRedChristmas.zip)
+[![Femgeek Christmas Wallpaper - Red Lettering](downloadBtn-20201229110127002.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-17-12-days-of-femgeek-christmas-christmas-wallpapers/FemgeekRedChristmas.zip)
 
 ![Femgeek Christmas Wallpapers](8258845452_fe40ee8608_c.jpg)
 
@@ -46,7 +46,7 @@ Included in the zip file are sizes:
 
 **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
-[![Femgeek Christmas Wallpaper - Green Lettering](downloadBtn-20201229110127002.jpg)](https://github.com/apricot13/femgeek-static/blob/master/files/FemgeekGreenChristmas.zip)
+[![Femgeek Christmas Wallpaper - Green Lettering](downloadBtn-20201229110127002.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-17-12-days-of-femgeek-christmas-christmas-wallpapers/FemgeekGreenChristmas.zip)
 
 ![Femgeek Christmas Wallpapers](8258845306_ee0d4e2dd4_c.jpg)
 
@@ -58,4 +58,4 @@ Included in the zip file are sizes:
 
 **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
-[![Femgeek Christmas Wallpaper - Plain Lettering](downloadBtn-20201229110127002.jpg)](https://github.com/apricot13/femgeek-static/blob/master/files/FemgeekPlainChristmas.zip)
+[![Femgeek Christmas Wallpaper - Plain Lettering](downloadBtn-20201229110127002.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-17-12-days-of-femgeek-christmas-christmas-wallpapers/FemgeekPlainChristmas.zip)

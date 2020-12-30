@@ -25,4 +25,4 @@ Adds Christmassy dark green hue to your photos – not just for christmas photos
  **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
 
-[![Femgeek Festive Greens Photoshop Curve](downloadBtn-20201229113949375.jpg)](http://www.femgeek.co.uk/download/14)
+[![Femgeek Festive Greens Photoshop Curve](downloadBtn-20201229113949375.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-24-12-days-of-femgeek-christmas-festive-greens-curve/femgeekFestiveGreensCurve.zip)

@@ -47,7 +47,7 @@ A photoshop curve that gives your images a duck egg blue hue. Works best on imag
 **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
 
-[![Femgeek Duck Egg Blue Curve](downloadBtn-20201229113036343.jpg)](http://www.femgeek.co.uk/download/1)
+[![Femgeek Duck Egg Blue Curve](downloadBtn-20201229113036343.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-13-12-days-of-femgeek-christmas-duck-egg-blue-curve/FemgeekDuckEggBlueCurve.zip)
 
  
 

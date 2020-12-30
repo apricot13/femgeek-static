@@ -35,7 +35,7 @@ A photoshop curve that gives your images a warm orange effect. The blacks are wa
  
 **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
-[![Femgeek Mulled Oranges Curve](downloadBtn-20201229104139098.jpg)](https://github.com/apricot13/femgeek-static/blob/master/files/FemgeekMulledOrangesCurve.zip)
+[![Femgeek Mulled Oranges Curve](downloadBtn-20201229104139098.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-20-12-days-of-femgeek-christmas-mulled-oranges-curve/FemgeekMulledOrangesCurve.zip)
 
  
 

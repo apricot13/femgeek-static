@@ -33,7 +33,7 @@ A photoshop curve that gives your images a chocolatey blue effect. The blacks ar
 
 **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
-[![Femgeek Chocolate Blue Curve](downloadBtn-20201229111100259.jpg)](http://www.femgeek.co.uk/download/2)
+[![Femgeek Chocolate Blue Curve](downloadBtn-20201229111100259.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-18-12-days-of-femgeek-christmas-chocolate-blue-curve/FemgeekChocolateBlueCurve.zip)
 
  
 

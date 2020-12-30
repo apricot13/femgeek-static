@@ -60,6 +60,7 @@ module.exports = function(eleventyConfig) {
           return true;
         });
 
+
         for (const tag of tags) {
           tagSet.add(tag);
         }
@@ -67,7 +68,7 @@ module.exports = function(eleventyConfig) {
     });
 
     // returning an array in addCollection works in Eleventy 0.5.3
-    return [...tagSet];
+    return [...tagSet].sort();
   });
 
   eleventyConfig.addPassthroughCopy("img");

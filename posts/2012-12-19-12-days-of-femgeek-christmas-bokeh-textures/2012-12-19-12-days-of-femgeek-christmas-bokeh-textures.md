@@ -31,4 +31,4 @@ It would be great if you could tweet/facebook/google plus about the 12 days too!
 **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
 
-[![Femgeek Bokeh Textures](downloadBtn-20201229104924164.jpg)](https://github.com/apricot13/femgeek-static/blob/master/files/femgeekBokehTextures.zip) 
+[![Femgeek Bokeh Textures](downloadBtn-20201229104924164.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-19-12-days-of-femgeek-christmas-bokeh-textures/femgeekBokehTextures.zip) 

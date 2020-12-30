@@ -31,4 +31,4 @@ It would be great if you could tweet/facebook/google plus about the 12 days too!
 
 **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
-[![Femgeek Delicate Textures](downloadBtn-20201229113413340.jpg)](http://www.femgeek.co.uk/download/13)
+[![Femgeek Delicate Textures](downloadBtn-20201229113413340.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-22-12-days-of-femgeek-christmas-delicate-textures/femgeekDelicateTextures.zip)

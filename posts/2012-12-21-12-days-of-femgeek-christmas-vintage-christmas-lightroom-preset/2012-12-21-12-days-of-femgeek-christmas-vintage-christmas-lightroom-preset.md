@@ -33,7 +33,7 @@ An Adobe Lightroom preset to give your christmas tree photos that vintage feel. 
 
 **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
-[![Femgeek Vintage Christmas Lightroom Preset](downloadBtn.jpg)](https://github.com/apricot13/femgeek-static/blob/master/files/FemgeekVintageChristmasLightroomPreset.zip)
+[![Femgeek Vintage Christmas Lightroom Preset](downloadBtn.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-21-12-days-of-femgeek-christmas-vintage-christmas-lightroom-preset/FemgeekVintageChristmasLightroomPreset.zip)
 
  
 

@@ -8,7 +8,7 @@ eleventyNavigation:
 {% set maxPosts = collections.posts.length | min(3) %}
 {# <h2>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h2> #}
 
-{% set postslist = collections.posts | head(-10) %}
+{% set postslist = collections.posts | head(-5) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 

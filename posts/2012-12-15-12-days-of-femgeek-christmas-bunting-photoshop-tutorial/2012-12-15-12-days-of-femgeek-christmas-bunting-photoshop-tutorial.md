@@ -89,7 +89,7 @@ You can download the PSD for this tutorial below.
 
 **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
-[![Femgeek Bunting Photoshop Tutorial](downloadBtn-20201229112059356.jpg)](http://www.femgeek.co.uk/download/12)
+[![Femgeek Bunting Photoshop Tutorial](downloadBtn-20201229112059356.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-15-12-days-of-femgeek-christmas-bunting-photoshop-tutorial/FemgeekBuntingPsd.zip)
 
 Take a look at what people are doing with the tutorial below:
 

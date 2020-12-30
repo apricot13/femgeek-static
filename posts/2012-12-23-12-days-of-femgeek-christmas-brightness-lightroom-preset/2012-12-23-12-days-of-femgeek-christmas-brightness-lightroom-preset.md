@@ -33,7 +33,7 @@ An Adobe Lightroom preset to brighten up your photography.
 
  **Click the 'download' button on the top right hand corner above where it says 'View raw'**
 
-[![Femgeek Brightness Lightroom Preset ](downloadBtn-20201229113717480.jpg)](http://www.femgeek.co.uk/download/9)
+[![Femgeek Brightness Lightroom Preset ](downloadBtn-20201229113717480.jpg)](https://github.com/apricot13/femgeek-static/blob/master/posts/2012-12-23-12-days-of-femgeek-christmas-brightness-lightroom-preset/FemgeekBrightnessLightroomPreset.zip)
 
  
 

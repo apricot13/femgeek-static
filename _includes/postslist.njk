@@ -12,20 +12,20 @@
 
      <time class="post__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 
-             
-
-
+          
 </div>
 
-    {% if post.data.description %}
+{{ post.templateContent | safe }}
+
+    {# {% if post.data.description %}
       <p class="post__description">{{ post.data.description }}</p>
-    {% endif %}
+    {% endif %} #}
 
 {# <div class="post__tags">
         {% for tag in post.data.tags %}
           {%- if collections.tagList.indexOf(tag) != -1 -%}
           {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-          <a href="{{ tagUrl | url }}" class="post-tag-alt">{{ tag }}</a>
+          <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
           {%- endif -%}
         {% endfor %}
         </div> #}

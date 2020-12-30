@@ -3,4 +3,30 @@ layout: layouts/base.njk
 templateClass: tmpl-home
 ---
 
-{{ content | safe }}
+<div class="home">
+    <div class="home__main">
+        {{ content | safe }}
+    </div>
+    <div class="home__side">
+      <img src="/img/sidebar-profilepic2.png" alt="Photograph of the author" />
+      <p class="sidebar-header">About</p>
+      <p>Welcome to femgeek. This could be described as a lifestyle blog. Its a collection of things I find interesting and wish to share. Documenting things helps me remember them.</p>
+
+      <p>Find me on <a href="https://twitter.com/apricot_13">twitter</a>, <a  href="https://www.instagram.com/apricot13/">Instagram</a>, <a href="https://www.github.com/apricot13">Github</a></p>
+
+
+      {%- if collections.tagList -%}
+      <br />
+      <br />
+      <br />
+      
+      <p class="sidebar-header">Topics</p>
+        <ul class="tags-list">
+        {% for tag in collections.tagList %}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <li><a href="{{ tagUrl | url }}" >{{ tag }}</a></li>
+        {% endfor %}
+        </ul>
+        {%- endif -%}
+    </div>
+</div>
