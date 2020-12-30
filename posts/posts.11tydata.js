@@ -1,7 +1,7 @@
 module.exports = {
   tags: ["posts"],
   eleventyComputed: {
-    comments: "sup"
+    // comments: "sup"
   }
 
 }

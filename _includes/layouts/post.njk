@@ -22,6 +22,7 @@ templateClass: tmpl-post
 <time class="single-post__date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
 {%- endif -%}
 
+
 {{ content | safe }}
 
 
@@ -41,4 +42,4 @@ templateClass: tmpl-post
 </ul>
 
 
-z{{comments}}y
+{# z{{comments}}y #}

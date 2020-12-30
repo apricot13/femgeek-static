@@ -2,25 +2,44 @@
 title: How to show posts on the homepage of eleventy-base-blog
 description:  Switching to eleventy for my blogging but needing images on the homepage
 date: 2020-01-30
-draft: true 
 tags:
   - eleventy
 layout: post
 ---
   
-I've just finished switching over my wordpress blog to a static site. Theres a few reasons I've done this but thats for another day!
+I've just finished switching over my wordpress blog to a static site. I've had to make a few compromises and theres a few reasons for the switchover but thats for another day!
 
-One of the requirements I had was that it show the posts on the homepage but the images were coming back with relative urls.
+One of the requirements I had was that I wanted it show the full post on the homepage but I had an issue then where the images were coming back with relative urls and not displaying.
+
+
+
+```liquid
+{%- raw -%}
+{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}
+{%- endraw -%}
+```
+
+
+
+Another long winded solution that may be of help to someone googling is this method. It lets you modify the image url with a custom renderer.
+
+My blog is based on the [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog) so it uses markdownIt to parse the markdown. I added a renderer that looks to see if an image url starts with http or https and if it doesn't it adds the rest of the url to it.
 
 This is how I displayed the collection content within my template.
 
-```html
-&#x7B;% for post in postslist | reverse %&#x7D;
-  &#x7B;&#x7B; post.templateContent | safe &#x7D;&#x7D;
-&#x7B;% endfor %&#x7D;
+
+
+```liquid
+{%- raw -%}
+{% for post in postslist | reverse %}
+  {{ post.templateContent | safe }}
+{% endfor %}
+{%- endraw -%}
 ``` 
 
-This is what I ended up with for adding in the metadata siteUrl for anything that does not already start with http/https
+
+This is what I ended up with for adding in the metadata siteUrl for anything that does not already start with http/https. Messy but it works. 
 
 
 ```js
@@ -54,8 +73,6 @@ This is what I ended up with for adding in the metadata siteUrl for anything tha
       }
       
       abspath += "/" + link;
-
-      console.log(env.page)
 
       tokens[idx].attrs[aIndex][1] = abspath;
 

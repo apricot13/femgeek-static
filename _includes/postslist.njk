@@ -15,6 +15,10 @@
           
 </div>
 
+{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}
+
+
 {# {{ post.templateContent | safe }} #}
 
     {% if post.data.description %}
