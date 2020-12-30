@@ -1,6 +1,8 @@
 <div class="postslist">
 {% for post in postslist | reverse %}
 
+{{post | log}}
+
   <div class="post{% if post.url == url %} post--active{% endif %}">
 
     <div class="post__top">

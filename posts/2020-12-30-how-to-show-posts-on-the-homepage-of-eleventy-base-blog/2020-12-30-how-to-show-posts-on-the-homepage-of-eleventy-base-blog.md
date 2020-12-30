@@ -1,12 +1,13 @@
 ---
 title: How to show posts on the homepage of eleventy-base-blog
 description:  Switching to eleventy for my blogging but needing images on the homepage
-date: 2021-01-30
+date: 2020-01-30
+draft: true 
 tags:
   - eleventy
 layout: post
 ---
- 
+  
 I've just finished switching over my wordpress blog to a static site. Theres a few reasons I've done this but thats for another day!
 
 One of the requirements I had was that it show the posts on the homepage but the images were coming back with relative urls.

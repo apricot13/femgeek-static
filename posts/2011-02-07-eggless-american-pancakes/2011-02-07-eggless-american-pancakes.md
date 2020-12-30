@@ -3,8 +3,7 @@ title: Eggless american pancakes
 description: A foolproof recipe for making eggless american pancakes
 date: 2011-02-07
 tags:
-  - photoshop
-  - tips
+  - recipes
 layout: post
 ---
 I had a little accident with the fridge door the other day and accidentally dropped all our eggs on the floor! “Bugger!” I said, I wanted pancakes!

@@ -47,11 +47,22 @@ module.exports = function(eleventyConfig) {
   const now = new Date();
 
   const livePosts = p => p.date <= now && !p.data.draft;
-  
 
-  eleventyConfig.addCollection('published', collection => {
-    return collection.getFilteredByGlob('./posts/*.md')
+  eleventyConfig.addCollection('testing', collection => {
+    return collection.getFilteredByGlob('./testing/*.md')
       .filter(livePosts).reverse();  
+  });
+
+
+  eleventyConfig.addCollection('posts', collection => {
+    return collection.getFilteredByGlob('./posts/**/*.md')
+      .filter(livePosts);  
+  });
+
+
+  eleventyConfig.addCollection('drafts', collection => {
+    return collection.getFilteredByGlob('./posts/**/*.md')
+    .filter(_ => !livePosts(_));
   });
 
 
@@ -115,13 +126,24 @@ module.exports = function(eleventyConfig) {
   //   } else {
   //     var abspath = '';
   //     abspath += env.metadata.url;
+
+      
+
+  //     let filePath = env.page.filePathStem.split('/');
+  //     filePath.pop();
+      
+
+
   //     if(env.page.url.charAt(0) === '/') {
   //       abspath += env.page.url.substring(1);
   //     }
-      
-  //     abspath += "/" + link;
 
-  //     console.log(env.page)
+
+  //     abspath += filePath.join('/');
+      
+  //     abspath += "" + link;
+
+      
 
   //     tokens[idx].attrs[aIndex][1] = abspath;
 
