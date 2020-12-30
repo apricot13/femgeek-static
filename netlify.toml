@@ -1,3 +1,107 @@
 [build]
   publish = "_site"
   command = "DEBUG=* eleventy"
+
+
+[[redirects]]
+  from = "/how-to-make-skittles-vodka/"
+  to = "/posts/2010-04-27-how-to-make-skittles-vodka/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/how-to-make-a-no-sew-skirt/"
+  to = "/posts/2010-04-27-no-sew-skirt/"
+  status = 301
+  force = false
+
+
+[[redirects]]
+  from = "/how-to-reload-fonts-without-restarting-photoshop/"
+  to = "/posts/2010-04-27-reload-fonts-without-restarting-photoshop/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/eggless-american-pancakes/"
+  to = "/posts/2011-02-07-eggless-american-pancakes/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/12-days-of-femgeek-christmas-duck-egg-blue-curve/"
+  to = "posts/2012-12-13-12-days-of-femgeek-christmas-duck-egg-blue-curve/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/12-days-of-femgeek-christmas-fairy-dust-brushes/"
+  to = "/posts/2012-12-14-12-days-of-femgeek-christmas-fairy-dust-brushes/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/12-days-of-femgeek-christmas-bunting-photoshop-tutorial/"
+  to = "/posts/2012-12-15-12-days-of-femgeek-christmas-bunting-photoshop-tutorial/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/12-days-of-femgeek-christmas-handwritten-font/"
+  to = "/posts/2012-12-16-12-days-of-femgeek-christmas-handwritten-font/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/12-days-of-femgeek-christmas-christmas-wallpapers/"
+  to = "/posts/2012-12-17-12-days-of-femgeek-christmas-christmas-wallpapers/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/12-days-of-femgeek-christmas-chocolate-blue-curve/"
+  to = "/posts/2012-12-18-12-days-of-femgeek-christmas-chocolate-blue-curve/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/12-days-of-femgeek-christmas-bokeh-textures/"
+  to = "/posts/2012-12-19-12-days-of-femgeek-christmas-bokeh-textures/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/12-days-of-femgeek-christmas-mulled-oranges-curve/"
+  to = "/posts/2012-12-20-12-days-of-femgeek-christmas-mulled-oranges-curve/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/12-days-of-femgeek-christmas-vintage-christmas-lightroom-preset/"
+  to = "/posts/2012-12-21-12-days-of-femgeek-christmas-vintage-christmas-lightroom-preset/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/12-days-of-femgeek-christmas-delicate-textures/"
+  to = "/posts/2012-12-22-12-days-of-femgeek-christmas-delicate-textures/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/12-days-of-femgeek-christmas-brightness-lightroom-preset/"
+  to = "/posts/2012-12-23-12-days-of-femgeek-christmas-brightness-lightroom-preset/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/12-days-of-femgeek-christmas-festive-greens-curve/"
+  to = "/posts/2012-12-24-12-days-of-femgeek-christmas-festive-greens-curve/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/black-white-photoshop-actions/"
+  to = "/posts/2013-05-30-black-and-white-photoshop-actions/"
+  status = 301
+  force = false
