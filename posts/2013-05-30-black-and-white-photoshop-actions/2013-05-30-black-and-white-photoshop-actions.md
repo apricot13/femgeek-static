@@ -10,7 +10,6 @@ layout: layouts/post.njk
 ---
  
  
-
 ![Femgeek B&W Photoshop Actions](8891305535_e1d65868f2_o.jpg)
 
  

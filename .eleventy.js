@@ -41,6 +41,17 @@ module.exports = function(eleventyConfig) {
     return Math.min.apply(null, numbers);
   });
 
+  // const now = new Date();
+
+  // const livePosts = p => p.date <= now;
+
+  // eleventyConfig.addCollection('posts', collection => {
+  //   return collection.getFilteredByGlob('./src/posts/*.md')
+  //     .filter(livePosts).reverse();
+  // });
+
+
+
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();
     collection.getAll().forEach(function(item) {
@@ -84,6 +95,38 @@ module.exports = function(eleventyConfig) {
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
   });
+
+
+  // var defaultRender = markdownLibrary.renderer.rules.image;
+  // markdownLibrary.renderer.rules.image = function (tokens, idx, options, env, self) {
+
+  //   const token = tokens[idx];
+  //   const aIndex = token.attrIndex('src');
+  //   const link = token.attrs[aIndex][1];
+    
+
+  //   if(/(http(s?)):\/\//i.test(link)) {
+    
+  //   } else {
+  //     var abspath = '';
+  //     abspath += env.metadata.url;
+  //     if(env.page.url.charAt(0) === '/') {
+  //       abspath += env.page.url.substring(1);
+  //     }
+      
+  //     abspath += "/" + link;
+
+  //     console.log(env.page)
+
+  //     tokens[idx].attrs[aIndex][1] = abspath;
+
+  //   }
+
+  //   // pass token to default renderer.
+  //   return defaultRender(tokens, idx, options, env, self);
+  // }
+
+
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Browsersync Overrides
