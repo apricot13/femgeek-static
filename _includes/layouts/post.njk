@@ -26,6 +26,11 @@ templateClass: tmpl-post
 {{ content | safe }}
 
 
+<br />
+<br />
+<p>I haven't enabled comments yet but if you have any feedback on this post or in general please <a href="https://twitter.com/apricot_13">tweet me</a>!</p>
+
+
 <ul class="prev-next-post">
     {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
   {%- if previousPost %}

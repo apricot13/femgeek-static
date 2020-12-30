@@ -65,8 +65,6 @@ module.exports = function(eleventyConfig) {
 
   const livePosts = p => p.date <= now && !p.data.draft;
 
-
-
   eleventyConfig.addCollection('posts', collection => {
     return collection.getFilteredByGlob('./posts/**/*.md')
       .filter(livePosts);  
