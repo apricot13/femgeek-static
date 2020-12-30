@@ -1,5 +1,9 @@
 ---
 layout: twoCol
+pagination:
+  data: collections.posts
+  size: 5
+  reverse: true
 eleventyNavigation:
   key: Home
   order: 1
@@ -15,12 +19,48 @@ eleventyNavigation:
 {% set postslistCounter = collections.published | length %}
 {% include "postslist.njk" %} #}
 
-{% set postslist = collections.posts | head(-5) %}
+{# {% set postslist = collections.posts | head(-5) %}
 {% set postslistCounter = collections.posts | length %} 
-{% include "postslist.njk" %} 
+{% include "postslist.njk" %}  #}
 
+
+{% set postslist = pagination.items.reverse() %}
+{% include "postslist.njk" %} 
    
+  
+
+{# 
+
+{%- for post in pagination.items -%}
+  <article class="post">
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
+  </article>
+{%- endfor -%} #}
+
+{# {{pagination | log }} #}
+{# <pre>{{ pagination.previousPageHref | url }}{{ pagination.nextPageHref  | url }}</pre> #}
+
+{% if pagination.pageLinks.length > 1 %}
+<ul class="prev-next-post">
+  <li>
+    {% if pagination.nextPageLink %}
+      <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">Older Posts</a>
+    {% else %}
+      {# <span class="pagination__item">Older Articles</span> #}
+    {% endif %}
+  </li>
+  <li>
+    {% if pagination.previousPageLink %}
+      <a class="pagination__item" href="{{ pagination.previousPageHref | url }}">Newer Posts</a>
+    {% else %}
+      {# <span class="pagination__item">Newer Articles</span> #}
+    {% endif %}
+  </li>
+
+  
+</ul>
+{% endif %}
+
 <br />
 <br /> 
 <p class="text-center" ><a href="{{ '/posts/' | url }}">View all posts</a></p>
-  

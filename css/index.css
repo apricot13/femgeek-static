@@ -508,7 +508,7 @@ main.tmpl-home {
     /* border: 1px solid blue; */
     display: grid;
     grid-template-columns: 1fr 250px;
-    column-gap: 60px;
+    column-gap: 100px;
   }
 }
 

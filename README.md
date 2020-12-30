@@ -10,3 +10,4 @@ Static version of my old wordpress blog built with [Eleventy](https://github.com
 
 * syntax highlighting for njk in markdown
 * prism syntax highlighting is one long line
+* tidy css and add postcss
