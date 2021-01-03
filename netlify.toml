@@ -3,6 +3,11 @@
   command = "npm run build"
   functions = "functions/"
 
+[[redirects]]
+  from = "/feed"
+  to = "feed/feed.xml"
+  status = 301
+  force = false
 
 [[redirects]]
   from = "/how-to-make-skittles-vodka/"
