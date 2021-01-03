@@ -21,6 +21,8 @@
 // }
 
 
+// path: "/feed/feed.xml",
+
 
 module.exports = {
   ENV: process.env.ELEVENTY_ENV,
@@ -32,15 +34,15 @@ module.exports = {
   feed: {
     subtitle: "A blog about my hobbies and interests",
     filename: "feed.xml",
-    path: "/feed/feed.xml",
-    id: "https://example.com/"
+    path: "/feed",
+    id: "https://www.femgeek.co.uk/"
   },
   jsonfeed: {
     path: "/feed/feed.json",
-    url: "https://example.com/feed/feed.json"
+    url: "https://www.femgeek.co.uk/feed/feed.json"
   },
   author: {
     name: "Han",
-    url: "https://femgeek.co.uk/about/"
+    url: "https://www.femgeek.co.uk/about/"
   }
 };
