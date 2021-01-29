@@ -44,7 +44,7 @@ To apply the model we will be creating a little website that you and others can 
 You can skip all the below steps and simply try out my trained (on guinea pigs) algorithm [here](https://glitch.com/~fg-basic-ml-example). If you want to use your own uploaded algorithm from above click the 'remix your own' button on that page. Open the `script.js` file on the left hand side and update the url next around line ~43. 
 
 ```js
-const ourModel = "[https://teachablemachine.withgoogle.com/models/av5gK3anQ/](https://teachablemachine.withgoogle.com/models/av5gK3anQ/)";
+const ourModel = "https://teachablemachine.withgoogle.com/models/av5gK3anQ/";
 ```
 
 ![Untitled%202.png](Untitled%202.png)
