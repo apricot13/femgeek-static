@@ -43,7 +43,9 @@ To apply the model we will be creating a little website that you and others can 
 
 You can skip all the below steps and simply try out my trained (on guinea pigs) algorithm [here](https://glitch.com/~fg-basic-ml-example). If you want to use your own uploaded algorithm from above click the 'remix your own' button on that page. Open the `script.js` file on the left hand side and update the url next around line ~43. 
 
-`const ourModel = "[https://teachablemachine.withgoogle.com/models/av5gK3anQ/](https://teachablemachine.withgoogle.com/models/av5gK3anQ/)";`
+```js
+const ourModel = "[https://teachablemachine.withgoogle.com/models/av5gK3anQ/](https://teachablemachine.withgoogle.com/models/av5gK3anQ/)";
+```
 
 ![Untitled%202.png](Untitled%202.png)
 
@@ -59,7 +61,7 @@ Firstly we will need to give your page a title, the first code you will need to 
 
 *index.html*
 
-```jsx
+```html
 <h1>Is it a .... ?</h1>
 ```
 
@@ -71,7 +73,7 @@ Once the page has a title people need to choose their image so we can work out w
 
 *index.html*
 
-```jsx
+```html
 <!-- Step 1 - we need people to be able to choose their image -->
 <div class="test-image">
   <input type="file" id="testImage" onchange="onFileSelected(event)" />
@@ -82,7 +84,7 @@ They're probably like me and forget which image they chose so we want a place wh
 
 *index.html*
 
-```jsx
+```html
 <!-- when someone uploads the image we show it on the page -->
 <div class="preview-image hidden" id="preview-image">
   <img id="myImage" />
@@ -93,7 +95,7 @@ This file upload has an onchange attribute on it. When there is a change (image 
 
 *script.js*
 
-```jsx
+```js
 /**
   This function runs when the the file field receives an input.
 */
@@ -138,7 +140,7 @@ The next stage is to actually submit the image and run it through the algoritm.
 
 *index.html*
 
-```jsx
+```html
 <!-- a button to make it all happen -->
 <button id="identifyBtn" onclick="init()">
   Identify
@@ -149,7 +151,7 @@ This is the submit button, you can change the word identify to anything you like
 
 *script.js*
 
-```jsx
+```js
 /**
 This function is run when you click the 'Identify' button
 */
@@ -164,7 +166,7 @@ Now that we have a submit button that is linked to the `init()` function we will
 
 *index.html*
 
-```jsx
+```html
 <!-- show a loader -->
 <div id="loading" class="hidden rotate">🐹</div>
 ```
@@ -173,14 +175,14 @@ This loading div is hidden by default. In our `init()` method we will show it wh
 
 *script.js (within `init()` curly braces)*
 
-```jsx
+```js
 // We need to show we're loading something unhide the loading hamster
   showHide("loading", true);
 ```
 
 add this and all the following code (until told otherwise) in between the curly braces of the `init()` function. Like so.
 
-```jsx
+```js
 /**
 This function is run when you click the 'Identify' button
 */
@@ -197,7 +199,7 @@ After we show the loader we need to initialise the model. This is where your pre
 
 *script.js (still within `init()` curly braces)*
 
-```jsx
+```js
 // Our trained image url
   const ourModel = "https://teachablemachine.withgoogle.com/models/av5gK3anQ/";
 
@@ -214,7 +216,7 @@ We then need to send the image over to the library, it requires the image in a s
 
 *script.js (still within `init()` curly braces)*
 
-```jsx
+```js
 const testImage = document.getElementById("myImage").src;
   var myImage = new Image();
   myImage.src = testImage;
@@ -226,14 +228,14 @@ All the magic happens in the `prediction()` method but before we write that when
 
 *script.js (still within `init()` curly braces)*
 
-```jsx
+```js
 showHide("loading", false);
 showHide("results", true);
 ```
 
 *index.html*
 
-```jsx
+```html
 <!-- we need somewhere for results to go -->
       <div class="results hidden" id="results"></div>
 ```
@@ -244,7 +246,7 @@ Now we're done with the `init()` function so you can type the following outside 
 
 *script.js*
 
-```jsx
+```js
 async function prediction(image) {
   const prediction = await model.predict(image);
   const results = document.getElementById('results');
@@ -259,7 +261,7 @@ async function prediction(image) {
 
 *Where to place this last bit*
 
-```jsx
+```js
 /**
 This function is run when you click the 'Identify' button
 */
@@ -278,7 +280,7 @@ And thats it - here is the final code
 
 *index.html*
 
-```jsx
+```html
 <h1>Is it a .... ?</h1>
 
 <!-- Step 1 - we need people to be able to choose their image -->
@@ -313,7 +315,7 @@ And thats it - here is the final code
 
 *script.js*
 
-```jsx
+```js
 /**
   This function runs when the the file field receives an input.
 */
