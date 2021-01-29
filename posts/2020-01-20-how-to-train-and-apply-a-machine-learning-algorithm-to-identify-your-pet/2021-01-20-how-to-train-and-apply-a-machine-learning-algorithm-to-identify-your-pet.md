@@ -1,7 +1,8 @@
 ---
 title: How to train and apply a machine learning algorithm to identify your pet
 description: How to train and apply a machine learning algorithm to identify your pet
-date: 2010-04-27
+date: 2021-01-29
+draft: true
 tags:
   - tutorial
 layout: post
